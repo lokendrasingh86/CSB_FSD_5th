@@ -1,0 +1,22 @@
+/* body{
+    background-color: aquamarine;
+}
+
+p{
+    background-color: brown;
+    color: white;
+}
+h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: purple;
+    
+} */
+#home{
+    background-color: red;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
