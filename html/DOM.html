@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div~p{
+        width: 50%;
+        background-color: aqua;
+        color: rgb(15, 16, 16);
+    }
+    /* p:hover{
+        font-size: xx-large;
+        background-color: aquamarine;
+    } */
+    p::after{
+        content: "Abes Enginerring College";
+        background-color: rgb(85, 147, 222);
+    }
+    p::before{
+        content: "Heloo from Lokii Classes";
+        color: rgb(196, 137, 64);
+    }
+    p::selection{
+        background-color: blueviolet;
+    }
+    p:nth-child(3){
+        background-color: grey;
+        color: rgb(5, 5, 37);
+    }
+    div p:nth-of-type(1){
+        background-color: orange;
+        color: green;
+    }
+
+</style>
+<body>
+    <p>Left of div+p</p>
+    <div >
+        <p> Hello para from body->div->para </p>
+        <p>2nd child of para </p>
+        <span>
+            <p>body->div->span->para</p>
+            Span from div->body</span>
+    </div>
+
+    <p>Heloo Para from body</p>
+    <p>2nd para</p>
+    <p>3rd para from body</p>
+</body>
+</html>
