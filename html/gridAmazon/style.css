@@ -1,0 +1,112 @@
+.container{
+    background-color: rgb(207, 169, 93);
+    display: grid;
+    grid-template-columns: repeat(4,1fr)/*1fr 2fr 3fr 4fr(Fro dividing Units in fraction ) 100px 200px 300px 200p*/;
+    grid-template-rows: 100px 70px 400px 200px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(5, 5, 5);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.subHeader{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #172625;
+    border: white;
+    color: white;
+}
+.container1{
+    background-color: rgb(237, 240, 240);
+    border: 1px solid rgb(13, 12, 12);
+}
+.subContainer1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.container11{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_furnishings_2._SY232_CB555629502_.jpg);
+    background-color: rgb(219, 222, 226);
+    height:100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.container12{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_storage_1._SY232_CB555629502_.jpg);
+
+    background-color:cadetblue;
+    height:100px;
+    width: 100px;
+    margin: 20px;
+
+
+}
+.container13{
+     background-color: grey;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_decor_1._SY232_CB555629502_.jpg);
+
+    background-color:chartreuse;
+    height:100px;
+    width: 100px;
+    margin: 20px;
+}
+.container14{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_lighting_2_-_Copy._SY232_CB555629502_.jpg);
+
+    background-color:rgb(87, 104, 70);
+    height:100px;
+    width: 100px;
+    margin: 20px;
+}
+
+
+.container2{
+    background-color: rgb(236, 237, 241);
+    border: 1px solid black;
+}
+.container3{
+    background-color: rgb(236, 237, 241);
+    border: 1px solid black;
+}
+.container4{
+    background-color: rgb(236, 237, 241);
+    border: 1px solid black;
+}
+
+.searchInput{
+    width:90dvh;
+    height: 37px;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #1c1a13;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.subFooter{
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    background-color: #0a0a09;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
