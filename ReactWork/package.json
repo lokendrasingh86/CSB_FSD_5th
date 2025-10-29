@@ -1,0 +1,21 @@
+{
+    "name": "reactwork",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "vite": "^7.1.10"
+    },
+    "dependencies": {
+        "react-router": "^7.9.4",
+        "react-router-dom": "^7.9.4"
+    }
+}
