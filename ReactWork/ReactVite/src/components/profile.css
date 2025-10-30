@@ -1,0 +1,9 @@
+.profile-card {
+  border: 2px solid #fbbf24; /* amber border to keep visual cue */
+  max-width: 220px;
+  padding: 12px;
+  background-color: #3e3e4e;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
