@@ -5,7 +5,7 @@ function registration({ regData }) {
   const [age, setAge] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
-  function getData(e) {
+  async function getData(e) {
     e.preventDefault();
     const data = {
       name,
@@ -13,9 +13,18 @@ function registration({ regData }) {
       email,
       password,
     };
-    regData(data);
-    console.log(data);
+    // regData(data);
+    // console.log(data);
     // alert("Hiii "+name + " Your age is "+age + email + password);
+
+    const server = await fetch("http://172.16.45.91:3000/register",{
+      method:"POST",
+      headers : {"Content-Type " : "application/json"},
+      body:JSON.stringify(data)
+  })
+
+  const jsonresponse = await server.json();
+    alert(jsonresponse.msg)
   }
   return (
     <div>
